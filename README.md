@@ -37,7 +37,7 @@ Open wsl and go to root by typing `cd` and press enter, then create a `src` fold
 
 ![](images/git_clone.png)
 
-now you can build and run the .net core project using `dotnet` commands (for that you need to install dotnet-cli into your WSL (https://docs.microsoft.com/en-in/dotnet/core/install/linux))
+now you can build and run the .net core project using `dotnet` commands (for that you need to install `dotnet-cli` into your WSL (https://docs.microsoft.com/en-in/dotnet/core/install/linux))
 
 ![](images/dotnet_run.png)
 
@@ -75,7 +75,7 @@ Now, you can double click the `.sln` file and go crazy.
 
 ## Debugging the code
 
-To debug the code you need to `ssh` and `vsdbg` into your WSL. (https://medium.com/criteo-labs/wsl-visual-studio-attaching-launching-a-linux-net-core-application-on-my-window-10-ab21c179702d)
+To debug the code you need to install `ssh` and `vsdbg` in your WSL. (https://medium.com/criteo-labs/wsl-visual-studio-attaching-launching-a-linux-net-core-application-on-my-window-10-ab21c179702d)
 
 Steps to install `vsdbg` in WSL
 1. `sudo apt-get install unzip`

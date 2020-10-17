@@ -28,7 +28,7 @@ ___
 * Windows Terminal (optional) (https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)
 * A strong coffee
 
-___
+
 ## Getting source code into WSL
 
 ![](images/wsl_init.png)
@@ -47,7 +47,7 @@ For node project, more or less, that is it. 🎉
 
 For .net core projects keep reading. 🤓
 
-___
+
 ## Accessing source code from WSL
 
 In WSL, go to `src` folder and type `explorer.exe .` and BOOM
@@ -72,7 +72,7 @@ Now, you can double click the `.sln` file and go crazy.
 
 ![](images/code_in_vs.png)
 
-___
+
 ## Debugging the code
 
 To debug the code you need to `ssh` and `vsdbg` into your WSL. (https://medium.com/criteo-labs/wsl-visual-studio-attaching-launching-a-linux-net-core-application-on-my-window-10-ab21c179702d)

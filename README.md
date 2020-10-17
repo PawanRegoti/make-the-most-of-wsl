@@ -44,7 +44,7 @@ you can start editing the code at this point by just typing `code .` to open cur
 
 For node project, more or less, that is it. 🎉
 
-For dotnet core projects keep reading. 🤓
+For .net core projects keep reading. 🤓
 
 # Accessing source code from WSL
 
@@ -123,4 +123,5 @@ Now you can debug and edit any dotnet core project from Visual Studio as if it i
 Here is the reward for reaching till the finish line.
 
 ![](images/nerd_cat.png)
+
 _professor snuggles approves your dedication_ 😄

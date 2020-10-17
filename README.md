@@ -53,7 +53,7 @@ In WSL, go to `src` folder and type `explorer.exe .` and BOOM
 
 At this point, you may be tempted to double click the `.sln` file and load the project in visual studio. But, it won't work. _why you ask_ (https://github.com/docker/for-win/issues/8749#issuecomment-702160997)
 
-But fortunately, there is a work around. you can map the WSL as a network drive and then Visual Studio has no problems reading the files.
+Fortunately, there is a work around. you can map the WSL as a network drive and then Visual Studio has no problems reading the files.
 
 click on `wsl$` in address bar in explorer, then you will see this
 

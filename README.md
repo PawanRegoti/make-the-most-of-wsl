@@ -118,4 +118,9 @@ And then, **Voilà**
 
 ![](images/debugging.png)
 
-Thank you for reaching the end. Now you can debug and edit any dotnet core project from Visual Studio as if it is inside your c: or d: drive.
+Now you can debug and edit any dotnet core project from Visual Studio as if it is inside your c: or d: drive.
+
+Here is the reward for reaching till the finish line.
+
+![](images/nerd_cat.png)
+_professor snuggles approves your dedication_ 😄

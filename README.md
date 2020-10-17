@@ -23,8 +23,7 @@ Now, with that out of the away, let get to the real stuff.
 # Requirements
 
 * Windows 10, version 1903 (x64) or version 2004 (ARM64)
-* WSL 2 (you can get the instructions here https://docs.
-microsoft.com/en-us/windows/wsl/install-win10)
+* WSL 2 (you can get the instructions here https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 * Windows Terminal (optional) (https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)
 * A strong coffee
 

@@ -1,7 +1,7 @@
 # make-the-most-of-wsl
 How to configure wsl to run and debug .net core projects from windows
 
-# TL;DR;
+## TL;DR;
 Hi, 
 So Windows finally understood that linux is necessary and finally added WSL into it's OS. Good move.
 
@@ -20,14 +20,16 @@ In Short
 
 Now, with that out of the away, let get to the real stuff.
 
-# Requirements
+___
+## Requirements
 
 * Windows 10, version 1903 (x64) or version 2004 (ARM64)
 * WSL 2 (you can get the instructions here https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 * Windows Terminal (optional) (https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)
 * A strong coffee
 
-# Getting source code into WSL
+___
+## Getting source code into WSL
 
 ![](images/wsl_init.png)
 
@@ -45,7 +47,8 @@ For node project, more or less, that is it. 🎉
 
 For .net core projects keep reading. 🤓
 
-# Accessing source code from WSL
+___
+## Accessing source code from WSL
 
 In WSL, go to `src` folder and type `explorer.exe .` and BOOM
 
@@ -69,7 +72,8 @@ Now, you can double click the `.sln` file and go crazy.
 
 ![](images/code_in_vs.png)
 
-# Debugging the code
+___
+## Debugging the code
 
 To debug the code you need to `ssh` and `vsdbg` into your WSL. (https://medium.com/criteo-labs/wsl-visual-studio-attaching-launching-a-linux-net-core-application-on-my-window-10-ab21c179702d)
 
@@ -113,7 +117,7 @@ Now, in Visual Studio, go to `Debug -> Attach to Process` (`Ctrl + Alt + P`)
 
 ![](images/attach_to_process.png)
 
-And then, **Voilà**
+And then, __Voilà__
 
 ![](images/debugging.png)
 
